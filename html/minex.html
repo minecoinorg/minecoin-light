@@ -1,0 +1,622 @@
+
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<!-- Meta -->
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no">
+		<!-- SEO Meta -->
+		<meta name="keywords" content="">
+		<meta name="description" content="Mincoin is a resource that ensures the functioning of the Minex platform. With its help you can purchase digital company stocks, emission of which is occurred of the Minex platform.">
+		<!-- Favicon -->
+		<link rel="shortcut icon" href="img/favicon/favicon.ico" type="image/x-icon">
+		<link rel="apple-touch-icon" href="img/favicon/apple-touch-icon.png">
+		<link rel="apple-touch-icon" sizes="72x72" href="img/favicon/apple-touch-icon-72x72.png">
+		<link rel="apple-touch-icon" sizes="114x114" href="img/favicon/apple-touch-icon-114x114.png">
+		<!-- Title -->
+		<title>MineCoin - Cabinet Site</title>
+		<!-- CSS -->
+		<link rel="stylesheet" href="css/bootstrap.min.css">
+		<link rel="stylesheet" href="css/animate.min.css">
+		<link rel="stylesheet" href="css/languages.min.css">
+		<link rel="stylesheet" href="css/magnific-popup.css">
+		<link rel="stylesheet" href="css/main.css">
+		<!-- IE8 --><!--[if lt IE 9]>
+		<script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+		<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+		<![endif]-->
+	</head>
+	<body class="bg-grey">
+    <!-- Preloader -->
+    <div id="preloader">
+      <div class="cssload-whirlpool"></div>
+    </div>
+    <!-- Main -->
+    <main id="cabinet">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="top-panel clearfix">
+              <div class="left"><b class="minex-title">MINEX</b><span class="light-label">light</span></div>
+              <div class="right" style="position:relative;top:8px;">
+                <div class="exchange-rates">1 BTC = 1000 MNC</div>
+                <div class="balance">Balance: <span class="wallet-amount">0 MNC</span></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-3 col-sm-4">
+            <div class="left-sidebar clearfix">
+              <div class="user">
+                <div class="avatar"><img src="img/avatar.png" alt="alt"></div>
+                <!-- <div class="user-id">ID: 3c126feb156536a86c22e47d0ae4cca1dec8ca08</div> -->
+              </div>
+              <style>
+                #cabinet .left-sidebar .left-menu ul li a {
+                  text-transform: none;
+                }
+                #cabinet .left-sidebar {
+                  background-color: #666;
+                }
+                .amount-element, .amount-element:hover {
+                  float:right;
+                  background-color:#e00;
+                  border-radius:50%;
+                  padding:2px 8px;
+                  font-size:12px;
+                  font-weight:bold;
+                  position:relative;
+                  top:5px;
+                  right:10px;
+                  text-transform: none;
+                  text-decoration: none;
+                }
+                .light-label {
+                  background-color:#fff;
+                  color:#1d75b7;
+                  margin:0 0 0 6px;
+                  font-size:12px;
+                  font-weight:bold;
+                  position:relative;
+                  top:8px;
+                  padding:0 4px;
+                  border-radius:0 3px 3px 3px;
+                }
+                .minex-title {
+                  font-size:28px;
+                  vertical-align: text-top;
+                }
+              </style>
+              <div class="left-menu">
+                <ul>
+                  <li><a href="#notif-popup" class="notif_popup"> <span class="glyphicon glyphicon-play-circle"></span>Dashboard</a></li>
+                  <li><a href="#notif-popup" class="notif_popup"><span class="glyphicon glyphicon-play-circle"></span>Wallets</a></li>
+                  <li><a href="#notif-popup" class="notif_popup"><span class="glyphicon glyphicon-play-circle"></span>Organizations</a></li>
+                  <li><a href="#notif-popup" class="notif_popup"><span class="glyphicon glyphicon-play-circle"></span>Exchange</a></li>
+                  <li><a href="#notif-popup" class="notif_popup"><span class="glyphicon glyphicon-play-circle"></span>Tokens</a></li>
+                  <li><a href="#notif-popup" class="notif_popup"><span class="glyphicon glyphicon-play-circle"></span>Voting</a></li>
+                  <li><a href="#notif-popup" class="notif_popup"><span class="glyphicon glyphicon-play-circle"></span>Messages</a><span class="amount-element" style="display:none;">7</span></li>
+                  <li><a href="#notif-popup" class="notif_popup"><span class="glyphicon glyphicon-play-circle"></span>Groups</a></li>
+                  <li><a href="#notif-popup" class="notif_popup"><span class="glyphicon glyphicon-play-circle"></span>News</a><span class="amount-element" style="display:none;">2</span></li>
+                  <li><a href="#notif-popup" class="notif_popup"><span class="glyphicon glyphicon-play-circle"></span>Statistics</a></li>
+                  <li><a href="#notif-popup" class="notif_popup"><span class="glyphicon glyphicon-play-circle"></span>Settings</a></li>
+                </ul>
+              </div>
+              <div class="log-out"><a href="/logout" class="button logout-button"><span class="glyphicon glyphicon-log-out"></span>Logout</a></div>
+            </div>
+          </div>
+          <div class="col-md-9 col-sm-8">
+            <div class="main-content">
+              <div class="row">
+                <div class="col-md-6 col-sm-6 col-xs-6">
+                  <div class="balance-block">
+                    <h3>Balance</h3><span><span class="wallet-amount">0</span> MNC</span>
+                  </div>
+                </div>
+                <div class="col-md-6 col-sm-6 col-xs-6">
+                  <div class="buttons-block"><a href="#popup4" class="button send-button"><span class="glyphicon glyphicon-send"></span>Send</a><a href="#popup5" class="button receive-button"><span class="glyphicon glyphicon-download-alt"></span>Receive</a></div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-12">
+                  <div class="chart-block">
+                    <h3>Dividends</h3>
+                    <div id="chart_div"></div>
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-12">
+                  <div class="transaction">
+                    <h3>Latest transactions</h3>
+                    <table class="table transaction-table">
+                      <thead>
+                        <tr>
+                          <th>Type</th>
+                          <th>Info</th>
+                          <th>Status</th>
+                          <th>Amount</th>
+                        </tr>
+                      </thead>
+                      <tbody id="transactions-section">
+                                                        <tr>
+                                  <td>
+                                    <span style="color:#00aa00;">
+                                                <b>Received</b><br />
+                                                18:08:2016 12:28
+                                              </span>                                  </td>
+                                  <td>
+                                    <table>
+                                                <tr>
+                                                  <td>From:</td>
+                                                  <td>##########</td>
+                                                </tr>
+                                                <tr>
+                                                  <td>To:</td>
+                                                  <td>Minecoin Wallet</td>
+                                                </tr>
+                                              </table>                                  </td>
+                                  <td>
+                                    Succeed                                  </td>
+                                  <td>10 MNC</td>
+                                </tr>
+                                                              <tr>
+                                  <td>
+                                    <span style="color:#00aa00;">
+                                                <b>Received</b><br />
+                                                18:08:2016 12:23
+                                              </span>                                  </td>
+                                  <td>
+                                    <table>
+                                                <tr>
+                                                  <td>From:</td>
+                                                  <td>##########</td>
+                                                </tr>
+                                                <tr>
+                                                  <td>To:</td>
+                                                  <td>Minecoin Wallet</td>
+                                                </tr>
+                                              </table>                                  </td>
+                                  <td>
+                                    Succeed                                  </td>
+                                  <td>1 MNC</td>
+                                </tr>
+                                                              <tr>
+                                  <td>
+                                    <span style="color:#aa0000;">
+                                                <b>Sent</b><br />
+                                                18:08:2016 12:23
+                                              </span>                                  </td>
+                                  <td>
+                                    <table>
+                                                <tr>
+                                                  <td>From:</td>
+                                                  <td>Minecoin Wallet</td>
+                                                </tr>
+                                                <tr>
+                                                  <td>To:</td>
+                                                  <td>##########</td>
+                                                </tr>
+                                              </table>                                  </td>
+                                  <td>
+                                    Succeed                                  </td>
+                                  <td>1 MNC</td>
+                                </tr>
+                                                              <tr>
+                                  <td>
+                                    <span style="color:#aa0000;">
+                                                <b>Sent</b><br />
+                                                18:08:2016 12:22
+                                              </span>                                  </td>
+                                  <td>
+                                    <table>
+                                                <tr>
+                                                  <td>From:</td>
+                                                  <td>Minecoin Wallet</td>
+                                                </tr>
+                                                <tr>
+                                                  <td>To:</td>
+                                                  <td>##########</td>
+                                                </tr>
+                                              </table>                                  </td>
+                                  <td>
+                                    Succeed                                  </td>
+                                  <td>10 MNC</td>
+                                </tr>
+                                                              <tr>
+                                  <td>
+                                    <span style="color:#aa0000;">
+                                                <b>Sent</b><br />
+                                                18:08:2016 12:00
+                                              </span>                                  </td>
+                                  <td>
+                                    <table>
+                                                <tr>
+                                                  <td>From:</td>
+                                                  <td>Minecoin Wallet</td>
+                                                </tr>
+                                                <tr>
+                                                  <td>To:</td>
+                                                  <td>##########</td>
+                                                </tr>
+                                              </table>                                  </td>
+                                  <td>
+                                    Succeed                                  </td>
+                                  <td>3.38864 MNC</td>
+                                </tr>
+                                                              <tr id="transaction-46">
+                                  <td>
+                                    <span style="color:#0000aa;">
+                                                <b>Subscription</b><br />
+                                                17:08:2016 17:25
+                                              </span>                                  </td>
+                                  <td>
+                                    <table>
+                                              <tr>
+                                                <td>0.00010000 BTC -> 0.2 MNC</td>
+                                              </tr>
+                                            </table>                                  </td>
+                                  <td>
+                                    <span id="transaction-status-46"><b style="color:#00aa00;">Done</b></span>                                  </td>
+                                  <td>0.2 MNC</td>
+                                </tr>
+                                                                <tr id="transaction-37">
+                                  <td>
+                                    <span style="color:#0000aa;">
+                                                <b>Subscription</b><br />
+                                                27:06:2016 20:56
+                                              </span>                                  </td>
+                                  <td>
+                                    <table>
+                                              <tr>
+                                                <td>0.00001563 BTC -> 0.03126 MNC</td>
+                                              </tr>
+                                            </table>                                  </td>
+                                  <td>
+                                    <span id="transaction-status-37"><b style="color:#00aa00;">Done</b></span>                                  </td>
+                                  <td>0.03126 MNC</td>
+                                </tr>
+                                                                <tr id="transaction-36">
+                                  <td>
+                                    <span style="color:#0000aa;">
+                                                <b>Subscription</b><br />
+                                                27:06:2016 19:44
+                                              </span>                                  </td>
+                                  <td>
+                                    <table>
+                                              <tr>
+                                                <td>0.00001577 BTC -> 0.03154 MNC</td>
+                                              </tr>
+                                            </table>                                  </td>
+                                  <td>
+                                    <span id="transaction-status-36"><b style="color:#00aa00;">Done</b></span>                                  </td>
+                                  <td>0.03154 MNC</td>
+                                </tr>
+                                                                <tr>
+                                  <td>
+                                    <span style="color:#aa0000;">
+                                                <b>Sent</b><br />
+                                                27:06:2016 17:27
+                                              </span>                                  </td>
+                                  <td>
+                                    <table>
+                                                <tr>
+                                                  <td>From:</td>
+                                                  <td>Minecoin Wallet</td>
+                                                </tr>
+                                                <tr>
+                                                  <td>To:</td>
+                                                  <td>##########</td>
+                                                </tr>
+                                              </table>                                  </td>
+                                  <td>
+                                    Succeed                                  </td>
+                                  <td>10 MNC</td>
+                                </tr>
+                                                              <tr>
+                                  <td>
+                                    <span style="color:#00aa00;">
+                                                <b>Received</b><br />
+                                                27:06:2016 17:26
+                                              </span>                                  </td>
+                                  <td>
+                                    <table>
+                                                <tr>
+                                                  <td>From:</td>
+                                                  <td>##########</td>
+                                                </tr>
+                                                <tr>
+                                                  <td>To:</td>
+                                                  <td>Minecoin Wallet</td>
+                                                </tr>
+                                              </table>                                  </td>
+                                  <td>
+                                    Succeed                                  </td>
+                                  <td>10 MNC</td>
+                                </tr>
+                                                              <tr>
+                                  <td>
+                                    <span style="color:#aa0000;">
+                                                <b>Sent</b><br />
+                                                27:06:2016 16:37
+                                              </span>                                  </td>
+                                  <td>
+                                    <table>
+                                                <tr>
+                                                  <td>From:</td>
+                                                  <td>Minecoin Wallet</td>
+                                                </tr>
+                                                <tr>
+                                                  <td>To:</td>
+                                                  <td>##########</td>
+                                                </tr>
+                                              </table>                                  </td>
+                                  <td>
+                                    Succeed                                  </td>
+                                  <td>10 MNC</td>
+                                </tr>
+                                                              <tr>
+                                  <td>
+                                    <span style="color:#00aa00;">
+                                                <b>Received</b><br />
+                                                27:06:2016 16:22
+                                              </span>                                  </td>
+                                  <td>
+                                    <table>
+                                                <tr>
+                                                  <td>From:</td>
+                                                  <td>##########</td>
+                                                </tr>
+                                                <tr>
+                                                  <td>To:</td>
+                                                  <td>Minecoin Wallet</td>
+                                                </tr>
+                                              </table>                                  </td>
+                                  <td>
+                                    Succeed                                  </td>
+                                  <td>10 MNC</td>
+                                </tr>
+                                                              <tr id="transaction-27">
+                                  <td>
+                                    <span style="color:#0000aa;">
+                                                <b>Subscription</b><br />
+                                                27:06:2016 15:02
+                                              </span>                                  </td>
+                                  <td>
+                                    <table>
+                                              <tr>
+                                                <td>0.00001576 BTC -> 0.03152 MNC</td>
+                                              </tr>
+                                            </table>                                  </td>
+                                  <td>
+                                    <span id="transaction-status-27"><b style="color:#00aa00;">Done</b></span>                                  </td>
+                                  <td>0.03152 MNC</td>
+                                </tr>
+                                                                <tr>
+                                  <td>
+                                    <span style="color:#aa0000;">
+                                                <b>Sent</b><br />
+                                                27:06:2016 15:00
+                                              </span>                                  </td>
+                                  <td>
+                                    <table>
+                                                <tr>
+                                                  <td>From:</td>
+                                                  <td>Minecoin Wallet</td>
+                                                </tr>
+                                                <tr>
+                                                  <td>To:</td>
+                                                  <td>##########</td>
+                                                </tr>
+                                              </table>                                  </td>
+                                  <td>
+                                    Succeed                                  </td>
+                                  <td>0.56416 MNC</td>
+                                </tr>
+                                                              <tr>
+                                  <td>
+                                    <span style="color:#aa0000;">
+                                                <b>Sent</b><br />
+                                                27:06:2016 13:18
+                                              </span>                                  </td>
+                                  <td>
+                                    <table>
+                                                <tr>
+                                                  <td>From:</td>
+                                                  <td>Minecoin Wallet</td>
+                                                </tr>
+                                                <tr>
+                                                  <td>To:</td>
+                                                  <td>##########</td>
+                                                </tr>
+                                              </table>                                  </td>
+                                  <td>
+                                    Succeed                                  </td>
+                                  <td>10 MNC</td>
+                                </tr>
+                                                              <tr>
+                                  <td>
+                                    <span style="color:#00aa00;">
+                                                <b>Received</b><br />
+                                                27:06:2016 12:56
+                                              </span>                                  </td>
+                                  <td>
+                                    <table>
+                                                <tr>
+                                                  <td>From:</td>
+                                                  <td>##########</td>
+                                                </tr>
+                                                <tr>
+                                                  <td>To:</td>
+                                                  <td>Minecoin Wallet</td>
+                                                </tr>
+                                              </table>                                  </td>
+                                  <td>
+                                    Succeed                                  </td>
+                                  <td>0.03216 MNC</td>
+                                </tr>
+                                                              <tr>
+                                  <td>
+                                    <span style="color:#00aa00;">
+                                                <b>Received</b><br />
+                                                26:06:2016 22:46
+                                              </span>                                  </td>
+                                  <td>
+                                    <table>
+                                                <tr>
+                                                  <td>From:</td>
+                                                  <td>##########</td>
+                                                </tr>
+                                                <tr>
+                                                  <td>To:</td>
+                                                  <td>Minecoin Wallet</td>
+                                                </tr>
+                                              </table>                                  </td>
+                                  <td>
+                                    Succeed                                  </td>
+                                  <td>0.032 MNC</td>
+                                </tr>
+                                                              <tr>
+                                  <td>
+                                    <span style="color:#00aa00;">
+                                                <b>Received</b><br />
+                                                26:06:2016 10:01
+                                              </span>                                  </td>
+                                  <td>
+                                    <table>
+                                                <tr>
+                                                  <td>From:</td>
+                                                  <td>##########</td>
+                                                </tr>
+                                                <tr>
+                                                  <td>To:</td>
+                                                  <td>Minecoin Wallet</td>
+                                                </tr>
+                                              </table>                                  </td>
+                                  <td>
+                                    Succeed                                  </td>
+                                  <td>10 MNC</td>
+                                </tr>
+                      </tbody>
+                    </table>
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-12">
+                  <div class="get-minecoin-block"><a href="#popup3" id="get-minecoins-button" class="button get-minecoin-button"><span class="glyphicon glyphicon-ok"></span>Get Minecoin</a></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <!-- Hidden Popup -->
+    <div class="hidden">
+      <div id="popup2" class="clearfix">
+        <p class="small-grey">You are want to subscribe on <span class="minecoin-amount">0</span> minecoins for <span class="bitcoin-amount">0</span> bitcoin</p>
+        <p>Send exactly <span class="bitcoin-amount">0</span> bitcoin to the address below</p>
+        <div class="qr-code"><img src="https://chart.googleapis.com/chart?chs=150x150&cht=qr&chl=&choe=UTF-8" alt="alt"></div>
+        <p class="payment">Payment address:</p>
+        <div class="text-code" id="newWalletId"></div>
+        <!-- <div class="status">Status: <span>Waiting for deposit</span></div> -->
+        <p>Your funds will be automatically converted into minecoins after the transaction confirmations will be 3.</p>
+        <span id="imgLoaderSpan"><img style="width:360px;" src="img/ajax-loader.gif" /></span>
+        <div class="form-group">
+          <button class="button close-button">Close</button>
+        </div>
+      </div>
+      <div id="popup3">
+        <h2>Get Minecoin</h2>
+        <p class="small-grey">Enter amount to subscribe in either bitcoin or minecoin</p>
+        <form id="get-minecoins-form">
+          <div class="row">
+            <div class="col-md-6 col-sm-6 col-xs-6">
+              <div class="form-group equally">
+                <label for="#btc-input">amount in bitcoin</label>
+                <input id="btc-input" type="text" name="bitcoin" onChange="$('.bitcoin-amount').html($(this).val());$('.minecoin-amount').html($('#mnc-input').val());">
+              </div>
+            </div>
+            <div class="col-md-6 col-sm-6 col-xs-6">
+              <div class="form-group">
+                <label for="#mnc-input">amount in minecion</label>
+                <input id="mnc-input" type="text" name="minecion" onchange="$('.bitcoin-amount').html($('#btc-input').val());$('.minecoin-amount').html($(this).val());">
+              </div>
+            </div>
+            <div class="col-md-12">
+              <p class="small-blue">1 BTC = 2000 MNC</p>
+            </div>
+            <div class="col-md-12">
+              <div class="form-group clearfix buttons">
+                <button type="button" class="cancel-button close-button">Cancel</button>
+                <button type="submit" data-mfp-src="#popup2" class="button continue-button show-popup2">Continue</button>
+              </div>
+            </div>
+          </div>
+        </form>
+      </div>
+      <div id="popup4">
+        <h2>Send</h2>
+        <form id="send-form" class="clearfix" onSubmit="return false">
+          <div class="form-group">
+            <input type="text" id="minecoin-id" name="minecoin_id" placeholder="MineCoin ID">
+          </div>
+          <div class="form-group">
+            <input id="amount" type="text" name="amount" placeholder="amount">
+            <div class="mcn">MCN</div>
+          </div>
+          <div class="form-group buttons">
+            <button type="button" class="cancel-button close-button">Cancel</button>
+            <button type="button" class="button continue-button" onClick="">Send</button>
+          </div>
+        </form>
+      </div>
+      <div id="popup5">
+        <h2>Receive</h2>
+        <p class="medium-grey">Use MineCoin ID to send coins</p>
+        <p>YourMinecoin ID:</p>
+        <div class="row">
+          <div class="col-md-6 col-sm-6">
+            <p>Copy</p>
+            <div id="copy-id-form" class="clearfix">
+              <div class="form-group">
+                <input id="minecoin-id" type="text" name="minecoin_id" value="">
+                <button data-clipboard-target="#minecoin-id" class="button copy-id-button">Copy</button>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-sm-6">
+            <p>Scan</p>
+            <div class="qr-code"><img src="" alt="alt"></div>
+          </div>
+        </div>
+        <div class="form-group">
+          <button class="button close-button">Close</button>
+        </div>
+      </div>
+      <div id="notif-popup">
+        <h2>Information</h2>
+        <p>This is under development</p><br />
+        <div class="form-group">
+          <button class="button close-button">Close</button>
+        </div>
+      </div>
+    </div>
+    <!-- JS -->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.matchHeight.js"></script>
+    <script src="js/SmoothScroll.js"></script>
+    <script src="js/jquery.particleground.min.js"></script>
+    <script src="js/typed.min.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script src="js/jquery.malihu.PageScroll2id.js"></script>
+    <script src="js/jquery.magnific-popup.js"></script>
+    <script src="js/clipboard.min.js"></script>
+    <script src="https://www.gstatic.com/charts/loader.js"></script>
+    <script src="js/common.js"></script>
+  </body>
+</html>
